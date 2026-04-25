@@ -1,0 +1,114 @@
+/* 🔷 Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1f2937;
+  font-family: Arial, sans-serif;
+}
+
+/* 🔷 Loading */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-top: 40px;
+}
+
+/* 🔷 Chart Section */
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  color: #111827;
+}
+
+/* 🔷 Chart Canvas */
+canvas {
+  max-width: 700px;
+  width: 100%;
+  height: 350px !important;
+  margin: 20px auto;
+  display: block;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+ 
+  height: 300px !important;
+
+}
+
+/* 🔷 Table wrapper */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+}
+
+/* 🔷 Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+/* 🔷 Header */
+thead {
+  background-color: #2563eb;
+  color: white;
+}
+
+thead th {
+  padding: 12px;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* 🔷 Table Body */
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* 🔷 Row styling */
+tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+tbody tr:hover {
+  background-color: #e0f2fe;
+  transition: 0.2s;
+}
+
+/* 🔷 Borders */
+table, th, td {
+  border: 1px solid #e5e7eb;
+}
+
+.charts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.chart-box {
+  width: 45%;
+  min-width: 300px;
+}
+/* 🔷 Responsive */
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+
+  canvas {
+    height: 250px !important;
+  }
+}
+canvas {
+  height: 300px !important;
+}
